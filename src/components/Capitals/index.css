@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.background-card {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.capital-card {
+  background-color: white;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.question-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+p {
+  margin-left: 15px;
+  color: #323f4b;
+}
+select {
+  height: 35px;
+  width: 150px;
+  outline: none;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: bold;
+}
+h1 {
+  color: #323f4b;
+}
